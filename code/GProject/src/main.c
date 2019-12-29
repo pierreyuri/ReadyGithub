@@ -1,8 +1,8 @@
 //===============================================
-#include <stdio.h>
+#include "GHello.h"
 //===============================================
 int main(int argc, char** argv) {
-    printf("Bonjour tout le monde\n");
+    GHello()->Hello();
     return 0;
 }
 //===============================================
